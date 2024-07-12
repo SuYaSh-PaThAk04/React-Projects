@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333; /* Dark background color */
+    color: #eee; /* Light text color */
+    margin: 0;
+}
+
+nav {
+   display: flex;
+    justify-content: space-between; /* Adjusted to space between items */
+    align-items: center; /* Vertically center items */
+    background-color: solid black; /* Dark background color */
+    font-size: 18px; /* Slightly reduced font size */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Lighter box shadow */
+    padding: 10px 20px; 
+}
+.Heading{
+  
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Card {
+    padding: 10px;
+    background-color: #444; /* Darker card background */
+    display: flex;
+    gap: 20px;
+    border: 2px solid #888; /* Darker border color */
+    border-radius: 10px;
+    margin: 20px auto; /* Center the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker box shadow */
+}
+
+.Cover {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid #ccc; /* Lighter border color */
+    background-color: #666; /* Darker cover background */
+}
+
+.Title {
+    font-weight: bold;
+    color: #eee; /* Light title color */
+    margin-top: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1; /* Take the remaining space */
+}
+
+.location,
+.Dates,
+.description {
+    margin-bottom: 5px; /* Space between elements */
+}
+
+.location {
+    font-weight: bold;
+    color: #eee; /* Light location color */
+    margin: 0;
+    font-size: 20px;
+}
+
+.Dates {
+    color: #eee; /* Light date color */
+}
+
+.description {
+    color: #aaf; /* Lighter blue for description */
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LocaLogo {
+    height: 20px;
+    margin-bottom: 5px; /* Adjust margin as needed */
+}
+
+footer {
+    background-color:  black; /* Darker footer background */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #eee; /* Light text color */
+}
+
+footer img {
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
